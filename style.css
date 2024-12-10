@@ -18,7 +18,7 @@ header {
     margin-bottom: 20px;
     background-image: url('background.jpg');
     background-size: cover;
-    background-position: -100px center; /* Shift image to the left */
+    background-position: -30px center; /* Shift image to the left */
     background-repeat: no-repeat;
     border-bottom: 5px solid #2a3673;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
