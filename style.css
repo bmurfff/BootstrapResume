@@ -1,1 +1,52 @@
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #2a3673;
+    line-height: 1.6;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 5px solid #2a3673;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+header p,
+header a {
+    font-size: 1.1em;
+    margin: 5px 0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.card-header {
+    background-color: #2a3673;
+    color: #ffffff;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #2a3673;
+    color: #ffffff;
+    font-size: 0.9em;
+    border-top: 5px solid #ffffff;
+}
 /* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
