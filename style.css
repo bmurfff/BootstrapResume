@@ -33,7 +33,7 @@ header::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(42, 54, 115, 0.3); /* 70% transparency overlay */
+    background-color: rgba(42, 54, 115, 0.5); /* 70% transparency overlay */
     z-index: 0;
 }
 
