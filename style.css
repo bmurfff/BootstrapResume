@@ -1,9 +1,10 @@
+/* General Body Styling */
 body {
     font-family: 'Arial', sans-serif;
     font-size: 16px;
-    color: #2a3673;
+    color: #2a3673; /* Primary text color */
     line-height: 1.6;
-    background-color: #ffffff;
+    background-color: #ffffff; /* White background color */
     margin: 0;
     padding: 0;
 }
@@ -76,6 +77,26 @@ header a {
 }
 
 
+/* Section Styling */
+section {
+    background-color: #2a3673; /* Purple background for sections */
+    color: #ffffff; /* White text for contrast */
+    padding: 20px;
+    width: 100%; /* Stretch sections to full width */
+    text-align: left;
+    border-top: 5px solid #ffffff; /* White separator between sections */
+    border-radius: 0; 
+}
+
+/* Section Headers */
+section h2 {
+    margin-top: 0;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Footer Styling */
 footer {
     text-align: center;
     padding: 10px 0;
@@ -84,4 +105,19 @@ footer {
     font-size: 0.9em;
     border-top: 5px solid #ffffff;
 }
-/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    header .profile-picture {
+        width: 100px;
+        height: 100px;
+    }
+
+    section h2 {
+        font-size: 1.5em;
+    }
+}
