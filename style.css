@@ -76,7 +76,64 @@ header a {
     text-decoration: underline;
 }
 
+/* Main Layout Styling */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-6 {
+    padding: 15px;
+}
+
+/* Section Styling */
+section {
+    background-color: #2a3673;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+section h2 {
+    margin-top: 0;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #2a3673;
+    color: #ffffff;
+    font-size: 0.9em;
+    border-top: 5px solid #ffffff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    header .profile-picture {
+        width: 100px;
+        height: 100px;
+    }
+
+    section h2 {
+        font-size: 1.5em;
+    }
+}
 /* Section Styling */
 section {
     background-color: #2a3673; /* Purple background for sections */
