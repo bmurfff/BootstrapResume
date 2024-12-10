@@ -134,6 +134,60 @@ section h2 {
     color: #FFD700; /* Gold for high contrast on blue */
 }
 
+/* Objectives Section Styling */
+.objectives-section {
+    background-color: #e6f7ff; /* Light blue background for the section */
+    padding: 30px;
+    text-align: center;
+    border-top: 5px solid #4a6fa1; /* Matches the section style */
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.objectives-section h2 {
+    margin-bottom: 20px;
+    color: #2a3673; /* Matches primary text color */
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.8em;
+}
+
+/* Container for objectives */
+.objectives-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Individual Objective Box Styling */
+.objective-box {
+    background-color: #ffffff; /* White background for contrast */
+    color: #2a3673; /* Primary text color */
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    font-size: 1.2em;
+    font-weight: 600;
+    text-align: center;
+    flex: 1 1 calc(25% - 15px); /* Responsive boxes */
+    max-width: 200px; /* Limit box width */
+    min-width: 150px; /* Ensure boxes don’t shrink too much */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .objective-box {
+        flex: 1 1 calc(50% - 15px); /* Two boxes per row */
+    }
+}
+
+@media (max-width: 480px) {
+    .objective-box {
+        flex: 1 1 100%; /* Full width on small screens */
+    }
+}
+
 /* Footer Styling */
 footer {
     text-align: center;
